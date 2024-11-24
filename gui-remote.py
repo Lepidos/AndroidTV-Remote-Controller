@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
@@ -51,7 +53,7 @@ class Controller:
         controller.press_power()
 
     def press_sleep(self):
-        controller.press_seel()
+        controller.press_sleep()
 
     def press_soft_sleep(self):
         controller.press_soft_sleep()
